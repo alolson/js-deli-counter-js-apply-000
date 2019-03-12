@@ -11,9 +11,13 @@ function takeANumber(olsonDeliLine, name) {
 
 
 function nowServing(olsonDeliLine) {
-	if (olsonDeliLine === 0) {
+	if (olsonDeliLine === 0) 
+	{
 		return ("There is nobody waiting to be served!")
-	} else {
+	} 
+	
+	else 
+	{
 		var firstInLine = olsonDeliLine.shift()
 		return (`Currently serving ${firstInLine}.`)
 	}
