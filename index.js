@@ -9,13 +9,6 @@ function takeANumber(olsonDeliLine, name) {
 
 ////////
 
-function nowServing(olsonDeliLine){ 
-   olsonDeliLine.unshift();
-   
-   if (olsonDeliLine === 0) {
-   return ("There is nobody waiting to be served!");
-   }
-}
 
 function nowServing(olsonDeliLine) {
 	if (olsonDeliLine === 0) {
