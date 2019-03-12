@@ -15,7 +15,7 @@ function nowServing(olsonDeliLine) {
 		return "There is nobody waiting to be served!"
 	} else {
 		var firstInLine = olsonDeliLine.shift()
-		return (`Currently serving ${firstInLine}`)
+		return (`Currently serving ${firstInLine}.`)
 	}
 
  }
