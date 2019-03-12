@@ -19,7 +19,7 @@ function nowServing(olsonDeliLine) {
 	else 
 	{
 		var firstInLine = olsonDeliLine.shift();
-		return (`Currently serving ${firstInLine}.`)
+		return (`Currently serving ${firstInLine}.`);
 	}
 
  }
