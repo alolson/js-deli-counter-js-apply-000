@@ -11,7 +11,7 @@ function takeANumber(olsonDeliLine, name) {
 
 
 function nowServing(olsonDeliLine) {
-	if (olsonDeliLine === 0) 
+	if (olsonDeliLine.length === 0) 
 	{
 		return ("There is nobody waiting to be served!")
 	} 
